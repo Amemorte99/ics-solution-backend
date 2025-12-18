@@ -28,14 +28,9 @@
       ]
     },
     "category": {
-      "type": "enumeration",
-      "enum": [
-        "Web",
-        "Marketing",
-        "Design",
-        "Cybersecurite",
-        "Energie"
-      ]
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::category.category"
     }
   }
 }

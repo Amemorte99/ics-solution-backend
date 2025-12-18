@@ -14,7 +14,7 @@
     "title": {
       "type": "string"
     },
-    "description": {
+    "longDesc": {
       "type": "blocks"
     },
     "images": {
@@ -28,6 +28,23 @@
       ]
     },
     "project_link": {
+      "type": "string"
+    },
+    "shortDesc": {
+      "type": "string"
+    },
+    "category": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::category.category"
+    },
+    "client": {
+      "type": "string"
+    },
+    "duration": {
+      "type": "string"
+    },
+    "technologies": {
       "type": "string"
     }
   }
